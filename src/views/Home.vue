@@ -12,6 +12,7 @@
                 </ul>
             </div>
         </div>
+        <div class="buttons">
             <button><a href="https://github.com/">
                     <h2 class="link">GitHub</h2>
                 </a></button>
@@ -22,14 +23,23 @@
                     href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing">
                     <h2 class="link">Resume</h2>
                 </a></button>
-       
+        </div>
 
         <h1 class="title">About</h1>
+        <div class="about">
+            <p class="chunk">
+                Hi! My name is Jenna, and I graduated from the <a href="https://generalassemb.ly/education/software-engineering-immersive">General Assembly Software Engineering Immersive</a> on
+                10-31-22, in order to fulfill my desired persuit to further understand the tech space and contribute to
+                it in a meaningful way. </p>
 
-        <h1 class="title">projects</h1>
-
-
-
+            <p class="chunk"> I am a Georgia State University 2021 alumn with a Bachelor's Degree in Journalism and a
+                great passion for storytelling which I strive to bring software engineering through clear, intentionally
+                <span>optomized user stories</span> and <span>captivating design.</span> </p>
+            <p class="chunk">
+                I have 5+ years of costumer service experience as a brunch cook, a bartender at a retirement community,
+                a sales associate at Ponce City Market and an event coordinator at a community arts center. </p>
+        </div>
+        <h1 class="title">Projects</h1>
 
         <h1 class="title">Skills</h1>
 
@@ -49,11 +59,13 @@ export default {
 
 body {
     background-color: #59253b;
+   
 }
 
 .header {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+    margin-top: 10vh
 }
 
 .name-container {
@@ -71,7 +83,7 @@ body {
 }
 
 .sub {
-    color:#0677a1;
+    color: #0677a1;
     font-size: 4vh;
     margin: 4vh auto;
     font-family: 'Righteous', cursive;
@@ -83,15 +95,42 @@ h1 {
 }
 
 .link {
-    color: #895061;
+    color: white;
 }
 
 button {
-    background-color: white;
-    border-color: #895061;
-    border-width: 2vh;
+    border-color: white;
+    background-color: #0677a1;
+    border-width: 1vh;
     height: 10vh;
-    margin: auto 2vh;
-    
+    margin: auto 6vh;
+    border-radius: 15vh;
+    width: 15vh
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.title {
+    text-align: center;
+    margin-top: 15vh;
+    font-size: 12vh;
+    margin-bottom: 1vh
+}
+
+.about {
+    text-align: left;
+    font-size: 3vh;
+    color: #895061;
+    width: 100vh;
+    margin: auto;
+    font-family: 'Righteous', cursive;
+}
+
+
+span {
+    color: white;
 }
 </style>
