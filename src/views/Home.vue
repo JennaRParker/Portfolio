@@ -1,10 +1,28 @@
 <template>
     <div class="home">
-        <h1 class="name">Jenna Parker</h1>
-        <a href="https://github.com/"><h2 class="link">GitHub</h2></a>
-        <a href="https://www.linkedin.com/in/jennaparkerdev/"><h2 class="link">LinkedIn</h2></a>
-        <a href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing"><h2 class="link">Resume</h2></a>
-    
+        <div class="header">
+            <div class="name-container">
+                <h1 class="name">Jenna Parker</h1>
+            </div>
+            <div class="subtext">
+                <ul>
+                    <li class="sub">Based out of Atlanta, GA</li>
+                    <li class="sub">Constantly learning</li>
+                    <li class="sub">Let's get in touch!</li>
+                </ul>
+            </div>
+        </div>
+            <button><a href="https://github.com/">
+                    <h2 class="link">GitHub</h2>
+                </a></button>
+            <button><a href="https://www.linkedin.com/in/jennaparkerdev/">
+                    <h2 class="link">LinkedIn</h2>
+                </a></button>
+            <button><a
+                    href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing">
+                    <h2 class="link">Resume</h2>
+                </a></button>
+       
 
         <h1 class="title">About</h1>
 
@@ -33,13 +51,47 @@ body {
     background-color: #59253b;
 }
 
+.header {
+    display: flex;
+    justify-content: center;;
+}
+
+.name-container {
+    width: 50vh;
+}
+
+.name {
+    text-align: center;
+    font-size: 15vh;
+    margin: auto;
+}
+
+.subtext {
+    margin: auto 5vh;
+}
+
+.sub {
+    color:#0677a1;
+    font-size: 4vh;
+    margin: 4vh auto;
+    font-family: 'Righteous', cursive;
+}
+
 h1 {
     color: white;
     font-family: 'Righteous', cursive;
 }
 
 .link {
-    color: #895061 
+    color: #895061;
 }
 
+button {
+    background-color: white;
+    border-color: #895061;
+    border-width: 2vh;
+    height: 10vh;
+    margin: auto 2vh;
+    
+}
 </style>
