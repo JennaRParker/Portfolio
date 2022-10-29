@@ -4,11 +4,12 @@
             <div class="name-container">
                 <h1 class="name">Jenna Parker</h1>
             </div>
+        </div>
             <div class="subtext">
                 <ul>
-                    <li class="sub">Based out of Atlanta, GA</li>
-                    <li class="sub">Constantly learning</li>
-                    <li class="sub">Let's get in touch!</li>
+                    <li class="sub">Based out of <span class="green">Atlanta, GA</span></li>
+                    <li class="sub">Constantly <span class="green">learning</span></li>
+                    <li class="sub">Let's get <span class="green">in touch!</span></li>
                 </ul>
             </div>
         </div>
@@ -23,7 +24,6 @@
                     href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing">
                     <h2 class="link">Resume</h2>
                 </a></button>
-        </div>
 
         <h1 class="title">About</h1>
         <div class="about">
@@ -47,24 +47,28 @@
         <div class="card-container">
             <a href="https://braindump-avatar.herokuapp.com/">
                 <div class="card">
-                <h1 class="project-title">Brain Dump</h1>
+                    <h1 class="project-title">Brain Dump</h1>
                 </div>
+                <h2 class="descript">A simple, mobile platform for users to anonymously share their thoughts and comment
+                    on posts.</h2>
                 <div class="tech">
-                <img src=https://img.shields.io/badge/-Python-yellow />
-                <img src="https://img.shields.io/badge/-Django-yellowgreen" />
-                <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
-            </div>
-        </a>
+                    <img src=https://img.shields.io/badge/-Python-yellow />
+                    <img src="https://img.shields.io/badge/-Django-yellowgreen" />
+                    <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
+                </div>
+            </a>
             <a href="https://dtoxnow.netlify.app/">
                 <div class="card">
                     <h1 class="project-title">DTox</h1>
                 </div>
+                <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
+                    every-day products.</h2>
                 <div class="tech">
-                <img src="https://img.shields.io/badge/-React.js-blue" />
-                <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
-                <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
-                <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
-                <img src="https://img.shields.io/badge/-Firebase-red" />
+                    <img src="https://img.shields.io/badge/-React.js-blue" />
+                    <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
+                    <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
+                    <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
+                    <img src="https://img.shields.io/badge/-Firebase-red" />
                 </div>
             </a>
         </div>
@@ -73,24 +77,26 @@
                 <div class="card">
                     <h1 class="project-title">Chain Reaction</h1>
                 </div>
+                <h2 class="descript">An interactive application allowing chain-restaurant-lovers and haters to share in
+                    their wisdom of fast-food experiences through the years.</h2>
                 <div class="tech">
-                <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
-                <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
-                <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
+                    <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
+                    <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
+                    <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
                 </div>
             </a>
             <a href="https://jennarparker.github.io/Mood-Sing/">
                 <div class="card">
                     <h1 class="project-title">Mood Sing</h1>
                 </div>
+                <h2 class="descript">A "mood ring" that retrieves a song rather than a color. Tell this application how
+                    you feel or want to feel, and prepare to immerse yourself in the music of that mood.</h2>
                 <div class="tech">
-                <img src="https://img.shields.io/badge/-AJAX-blue" />
-                <img src="https://img.shields.io/badge/-jQuery-red" />
+                    <img src="https://img.shields.io/badge/-AJAX-blue" />
+                    <img src="https://img.shields.io/badge/-jQuery-red" />
                 </div>
             </a>
         </div>
-
-        <h1 class="title">Contact</h1>
     </div>
 </template>
 
@@ -105,37 +111,40 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Righteous&display=swap');
 
 body {
-    background-color: #59253b;
+    background-color: black;
 
 }
 
 .header {
-    display: flex;
     justify-content: center;
-    margin-top: 10vh
-}
-
-.name-container {
-    width: 50vh;
+    margin-top: 10vh;
 }
 
 .name {
-    text-align: left;
-    font-size: 11vh;
+    text-align: center;
+    font-size: 20vh;
     margin: auto;
     font-family: 'Monoton', cursive;
     font-weight: 10;
+    text-shadow: white 1px 0 30px;
+    color: #28d536;
+    
 }
 
 .subtext {
-    margin: auto 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    
 }
 
 .sub {
     color: #0677a1;
-    font-size: 4vh;
+    font-size: 5vh;
     margin: 4vh auto;
     font-family: 'Righteous', cursive;
+    display: inline-block;
+    margin: auto 6vh
 }
 
 h1 {
@@ -144,46 +153,56 @@ h1 {
 }
 
 .link {
-    color: white;
+    color:#0677a1;
+    font-family: 'Righteous', cursive; ;
+}
+
+a {
+    text-decoration: none;
 }
 
 button {
-    border-color: white;
-    background-color: #0677a1;
+    border-color:#28d536;
+    background-color:black;
     border-width: 1vh;
-    height: 10vh;
+    height: 15vh;
     margin: auto 6vh;
     border-radius: 15vh;
-    width: 15vh
+    width: 15vh;
+    margin: auto 10vh;
+    font-size: 2vh;
+    box-shadow: white 1px 0 30px; 
 }
 
 .buttons {
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 .title {
     text-align: center;
     margin-top: 15vh;
     font-size: 12vh;
-    margin-bottom: 1vh
+    margin-bottom: 1vh;
+    text-shadow: #28d536 1px 0 30px;
 }
 
 .about {
     text-align: left;
     font-size: 3vh;
-    color: #895061;
+    color: #0677a1;
     width: 100vh;
     margin: auto;
     font-family: 'Righteous', cursive;
 }
 
 .linked {
-    color: white;
+    color:#28d536;
+    font-style: italic;
 }
 
 span {
-    color: #0677a1;
+    color:#28d536
 }
 
 .card-container {
@@ -194,7 +213,7 @@ span {
 .card {
     width: 50vh;
     height: 15vh;
-    background-color: #895061;
+    background-color:#0677a1;
     margin: 15vh 15vh 5vh 15vh;
     border-radius: 10vh;
     color: white;
@@ -202,10 +221,20 @@ span {
     font-family: 'Righteous', cursive;
     display: flex;
     justify-content: center;
+    box-shadow:#28d536 1px 0 30px; 
 }
 
 .project-title {
     font-size: 6vh;
+}
+
+.descript {
+    text-align: center;
+    width: 50vh;
+    margin: auto;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: 1px;
 }
 
 .tech {
