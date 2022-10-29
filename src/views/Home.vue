@@ -40,12 +40,12 @@
                 <span>optomized user stories</span> and <span>captivating design.</span>
             </p>
             <p class="chunk">
-                I have 5+ years of costumer service experience as a brunch cook, a bartender at a retirement community,
+                I have 5+ years of customer service experience as a brunch cook, a bartender at a retirement community,
                 a sales associate at Ponce City Market and an event coordinator at a community arts center. </p>
         </div>
         <h1 class="title">Projects and Skills</h1>
         <div class="card-container">
-            <a href="https://braindump-avatar.herokuapp.com/">
+            <a class="space" href="https://braindump-avatar.herokuapp.com/">
                 <div class="card">
                     <h1 class="project-title">Brain Dump</h1>
                 </div>
@@ -57,7 +57,7 @@
                     <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
                 </div>
             </a>
-            <a href="https://dtoxnow.netlify.app/">
+            <a class="space" href="https://dtoxnow.netlify.app/">
                 <div class="card">
                     <h1 class="project-title">DTox</h1>
                 </div>
@@ -192,7 +192,7 @@ button {
     font-size: 3vh;
     color: #0677a1;
     width: 100vh;
-    margin: auto;
+    margin: 12vh auto;
     font-family: 'Righteous', cursive;
 }
 
