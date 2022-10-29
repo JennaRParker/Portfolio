@@ -49,20 +49,44 @@
                 <div class="card">
                 <h1 class="project-title">Brain Dump</h1>
                 </div>
-                <div class="dump-tech">
+                <div class="tech">
                 <img src=https://img.shields.io/badge/-Python-yellow />
+                <img src="https://img.shields.io/badge/-Django-yellowgreen" />
+                <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
             </div>
-            </a>
+        </a>
             <a href="https://dtoxnow.netlify.app/">
-                <div class="card">DTox</div>
+                <div class="card">
+                    <h1 class="project-title">DTox</h1>
+                </div>
+                <div class="tech">
+                <img src="https://img.shields.io/badge/-React.js-blue" />
+                <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
+                <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
+                <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
+                <img src="https://img.shields.io/badge/-Firebase-red" />
+                </div>
             </a>
         </div>
         <div class="card-container">
             <a href="https://chain-react.herokuapp.com/">
-                <div class="card">Chain Reaction</div>
+                <div class="card">
+                    <h1 class="project-title">Chain Reaction</h1>
+                </div>
+                <div class="tech">
+                <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
+                <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
+                <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
+                </div>
             </a>
             <a href="https://jennarparker.github.io/Mood-Sing/">
-                <div class="card">Mood Sing</div>
+                <div class="card">
+                    <h1 class="project-title">Mood Sing</h1>
+                </div>
+                <div class="tech">
+                <img src="https://img.shields.io/badge/-AJAX-blue" />
+                <img src="https://img.shields.io/badge/-jQuery-red" />
+                </div>
             </a>
         </div>
 
@@ -184,13 +208,16 @@ span {
     font-size: 6vh;
 }
 
-.dump-tech {
+.tech {
+    margin-top: 0;
+    width: 50vh;
     text-align: center;
-    margin-top: 0
+    margin: auto;
 }
 
 img {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 50px;
+    margin: 10px;
 }
 </style>
