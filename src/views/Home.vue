@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Righteous&display=swap');
 
 body {
     background-color: #59253b;
@@ -73,9 +73,11 @@ body {
 }
 
 .name {
-    text-align: center;
-    font-size: 15vh;
+    text-align: left;
+    font-size: 11vh;
     margin: auto;
+    font-family: 'Monoton', cursive;
+    font-weight: 10;
 }
 
 .subtext {
