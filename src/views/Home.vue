@@ -28,20 +28,43 @@
         <h1 class="title">About</h1>
         <div class="about">
             <p class="chunk">
-                Hi! My name is Jenna, and I graduated from the <a href="https://generalassemb.ly/education/software-engineering-immersive">General Assembly Software Engineering Immersive</a> on
+                Hi! My name is Jenna, and I graduated from the <a
+                    href="https://generalassemb.ly/education/software-engineering-immersive"><span
+                        class="linked">General Assembly Software
+                        Engineering Immersive</span></a> on
                 10-31-22, in order to fulfill my desired persuit to further understand the tech space and contribute to
                 it in a meaningful way. </p>
 
             <p class="chunk"> I am a Georgia State University 2021 alumn with a Bachelor's Degree in Journalism and a
                 great passion for storytelling which I strive to bring software engineering through clear, intentionally
-                <span>optomized user stories</span> and <span>captivating design.</span> </p>
+                <span>optomized user stories</span> and <span>captivating design.</span>
+            </p>
             <p class="chunk">
                 I have 5+ years of costumer service experience as a brunch cook, a bartender at a retirement community,
                 a sales associate at Ponce City Market and an event coordinator at a community arts center. </p>
         </div>
-        <h1 class="title">Projects</h1>
-
-        <h1 class="title">Skills</h1>
+        <h1 class="title">Projects and Skills</h1>
+        <div class="card-container">
+            <a href="https://braindump-avatar.herokuapp.com/">
+                <div class="card">
+                <h1 class="project-title">Brain Dump</h1>
+                </div>
+                <div class="dump-tech">
+                <img src=https://img.shields.io/badge/-Python-yellow />
+            </div>
+            </a>
+            <a href="https://dtoxnow.netlify.app/">
+                <div class="card">DTox</div>
+            </a>
+        </div>
+        <div class="card-container">
+            <a href="https://chain-react.herokuapp.com/">
+                <div class="card">Chain Reaction</div>
+            </a>
+            <a href="https://jennarparker.github.io/Mood-Sing/">
+                <div class="card">Mood Sing</div>
+            </a>
+        </div>
 
         <h1 class="title">Contact</h1>
     </div>
@@ -59,7 +82,7 @@ export default {
 
 body {
     background-color: #59253b;
-   
+
 }
 
 .header {
@@ -131,8 +154,43 @@ button {
     font-family: 'Righteous', cursive;
 }
 
+.linked {
+    color: white;
+}
 
 span {
+    color: #0677a1;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 50vh;
+    height: 15vh;
+    background-color: #895061;
+    margin: 15vh 15vh 5vh 15vh;
+    border-radius: 10vh;
     color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.project-title {
+    font-size: 6vh;
+}
+
+.dump-tech {
+    text-align: center;
+    margin-top: 0
+}
+
+img {
+    width: 70px;
+    height: 70px;
 }
 </style>
