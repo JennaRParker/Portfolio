@@ -1,6 +1,6 @@
 # Portfolio
 
-Open the app [here]( https://astonishing-flan-795811.netlify.app/ )
+Open the site [here]( https://astonishing-flan-795811.netlify.app/ ) !
 
-## Built with Vue.js 
+Built with Vue.js 
 
