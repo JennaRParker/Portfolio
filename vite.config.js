@@ -13,6 +13,4 @@ export default defineConfig({
   },
 });
 
-module.exports = {
-  publicPath: 'Portfolio'
-}
+
