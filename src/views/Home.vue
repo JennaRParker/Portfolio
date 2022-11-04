@@ -1,5 +1,3 @@
-
-
 <template>
     <div class="home">
         <div class="header">
@@ -7,29 +5,25 @@
                 <h1 class="name">Jenna Parker</h1>
             </div>
         </div>
-            <div class="subtext">
-                <ul>
-                    <li class="sub">Based out of <span class="green">Atlanta, GA</span></li>
-                    <li class="sub">Constantly <span class="green">learning</span></li>
-                    <li class="sub">Let's get <span class="green">in touch!</span></li>
-                </ul>
-            </div>
+        <div class="subtext">
+            <ul>
+                <li class="sub">Based out of <span class="green">Atlanta, GA</span></li>
+                <li class="sub">Constantly <span class="green">learning</span></li>
+                <li class="sub">Let's get <span class="green">in touch!</span></li>
+            </ul>
         </div>
-        <div class="buttons">
-            <button><a href="https://github.com/">
-                    <h2 class="link">GitHub</h2>
-                </a></button>
-            <button><a href="https://www.linkedin.com/in/jennaparkerdev/">
-                    <h2 class="link">LinkedIn</h2>
-                </a></button>
-            <button><a
-                    href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing">
-                    <h2 class="link">Resume</h2>
-                </a></button>
-
-        
-        
-
+    </div>
+    <div class="buttons">
+        <button><a href="https://github.com/">
+                <h2 class="link">GitHub</h2>
+            </a></button>
+        <button><a href="https://www.linkedin.com/in/jennaparkerdev/">
+                <h2 class="link">LinkedIn</h2>
+            </a></button>
+        <button><a
+                href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing">
+                <h2 class="link">Resume</h2>
+            </a></button>
     </div>
 </template>
 
@@ -54,14 +48,14 @@ body {
     font-weight: 10;
     text-shadow: white 1px 0 30px;
     color: #28d536;
-    
+
 }
 
 .subtext {
     display: flex;
     justify-content: center;
     margin-top: 7vh;
-    
+
 }
 
 .sub {
@@ -79,8 +73,9 @@ h1 {
 }
 
 .link {
-    color:#0677a1;
-    font-family: 'Righteous', cursive; ;
+    color: #0677a1;
+    font-family: 'Righteous', cursive;
+    ;
 }
 
 a {
@@ -88,8 +83,8 @@ a {
 }
 
 button {
-    border-color:#28d536;
-    background-color:black;
+    border-color: #28d536;
+    background-color: black;
     border-width: 1vh;
     height: 15vh;
     margin: auto 6vh;
@@ -97,7 +92,7 @@ button {
     width: 15vh;
     margin: auto 10vh;
     font-size: 2vh;
-    box-shadow: white 1px 0 30px; 
+    box-shadow: white 1px 0 30px;
 }
 
 .buttons {
@@ -123,12 +118,12 @@ button {
 }
 
 .linked {
-    color:#28d536;
+    color: #28d536;
     font-style: italic;
 }
 
 span {
-    color:#28d536
+    color: #28d536
 }
 
 .card-container {
@@ -139,7 +134,7 @@ span {
 .card {
     width: 50vh;
     height: 15vh;
-    background-color:#0677a1;
+    background-color: #0677a1;
     margin: 15vh 15vh 5vh 15vh;
     border-radius: 10vh;
     color: white;
@@ -147,7 +142,7 @@ span {
     font-family: 'Righteous', cursive;
     display: flex;
     justify-content: center;
-    box-shadow:#28d536 1px 0 30px; 
+    box-shadow: #28d536 1px 0 30px;
 }
 
 .project-title {
