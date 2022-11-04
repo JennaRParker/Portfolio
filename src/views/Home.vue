@@ -14,14 +14,14 @@
         </div>
     </div>
     <div class="buttons">
-        <button><a href="https://github.com/">
+        <button><a href="https://github.com/" target="_blank"> 
                 <h2 class="link">GitHub</h2>
             </a></button>
-        <button><a href="https://www.linkedin.com/in/jennaparkerdev/">
+        <button><a href="https://www.linkedin.com/in/jennaparkerdev/" target="_blank">
                 <h2 class="link">LinkedIn</h2>
             </a></button>
         <button><a
-                href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing">
+                href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing" target="_blank">
                 <h2 class="link">Resume</h2>
             </a></button>
     </div>

@@ -1,5 +1,7 @@
+
 <template>
         <div class="about">
+            
             <p class="chunk">
                 Hi! My name is Jenna, and I graduated from the <a
                     href="https://generalassemb.ly/education/software-engineering-immersive"><span
