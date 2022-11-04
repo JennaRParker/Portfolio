@@ -1,3 +1,11 @@
+<script>
+import AboutVue from './About.vue';
+
+export default {
+    components: { 'about' : AboutVue}
+}
+</script>
+
 <template>
     <div class="home">
         <div class="header">
@@ -25,6 +33,7 @@
                 <h2 class="link">Resume</h2>
             </a></button>
     </div>
+    <about />
 </template>
 
 <style>
