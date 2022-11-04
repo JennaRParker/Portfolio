@@ -1,12 +1,4 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0WY77W8ER0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-0WY77W8ER0');
-</script>
 
 <template>
     <div class="home">
@@ -35,79 +27,7 @@
                     <h2 class="link">Resume</h2>
                 </a></button>
 
-        <h1 class="title">About</h1>
-        <div class="about">
-            <p class="chunk">
-                Hi! My name is Jenna, and I graduated from the <a
-                    href="https://generalassemb.ly/education/software-engineering-immersive"><span
-                        class="linked">General Assembly Software
-                        Engineering Immersive</span></a> on
-                10-31-22, in order to fulfill my desired persuit to further understand the tech space and contribute to
-                it in a meaningful way. </p>
-
-            <p class="chunk"> I am a Georgia State University 2021 alumn with a Bachelor's Degree in Journalism and a
-                great passion for storytelling which I strive to bring software engineering through clear, intentionally
-                <span>optomized user stories</span> and <span>captivating design.</span>
-            </p>
-            <p class="chunk">
-                I have 5+ years of customer service experience as a brunch cook, a bartender at a retirement community,
-                a sales associate at Ponce City Market and an event coordinator at a community arts center. </p>
-        </div>
-        <h1 class="title">Projects and Skills</h1>
-        <div class="card-container">
-            <a class="space" href="https://braindump-avatar.herokuapp.com/">
-                <div class="card">
-                    <h1 class="project-title">Brain Dump</h1>
-                </div>
-                <h2 class="descript">A simple, mobile platform for users to anonymously share their thoughts and comment
-                    on posts.</h2>
-                <div class="tech">
-                    <img src=https://img.shields.io/badge/-Python-yellow />
-                    <img src="https://img.shields.io/badge/-Django-yellowgreen" />
-                    <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
-                </div>
-            </a>
-            <a class="space" href="https://dtoxnow.netlify.app/">
-                <div class="card">
-                    <h1 class="project-title">DTox</h1>
-                </div>
-                <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
-                    every-day products.</h2>
-                <div class="tech">
-                    <img src="https://img.shields.io/badge/-React.js-blue" />
-                    <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
-                    <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
-                    <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
-                    <img src="https://img.shields.io/badge/-Firebase-red" />
-                </div>
-            </a>
-        </div>
-        <div class="card-container">
-            <a href="https://chain-react.herokuapp.com/">
-                <div class="card">
-                    <h1 class="project-title">Chain Reaction</h1>
-                </div>
-                <h2 class="descript">An interactive application allowing chain-restaurant-lovers and haters to share in
-                    their wisdom of fast-food experiences through the years.</h2>
-                <div class="tech">
-                    <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
-                    <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
-                    <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
-                </div>
-            </a>
-            <a href="https://jennarparker.github.io/Mood-Sing/">
-                <div class="card">
-                    <h1 class="project-title">Mood Sing</h1>
-                </div>
-                <h2 class="descript">A "mood ring" that retrieves a song rather than a color. Tell this application how
-                    you feel or want to feel, and prepare to immerse yourself in the music of that mood.</h2>
-                <div class="tech">
-                    <img src="https://img.shields.io/badge/-AJAX-blue" />
-                    <img src="https://img.shields.io/badge/-jQuery-red" />
-                </div>
-            </a>
-        </div>
-
+        
         
 
     </div>
