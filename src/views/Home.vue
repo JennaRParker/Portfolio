@@ -1,13 +1,3 @@
-<script>
-import AboutVue from './About.vue';
-import ProjectsVue from './Projects.vue';
-import ContactVue from './Contact.vue';
-
-export default {
-    components: { 'about' : AboutVue, 'projects': ProjectsVue, 'contact': ContactVue}
-}
-</script>
-
 <template>
     <div class="home">
         <div class="header">
