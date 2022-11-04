@@ -1,8 +1,10 @@
 <script>
 import AboutVue from './About.vue';
+import ProjectsVue from './Projects.vue';
+import ContactVue from './Contact.vue';
 
 export default {
-    components: { 'about' : AboutVue}
+    components: { 'about' : AboutVue, 'projects': ProjectsVue, 'contact': ContactVue}
 }
 </script>
 
@@ -34,6 +36,8 @@ export default {
             </a></button>
     </div>
     <about />
+    <projects />
+    <contact />
 </template>
 
 <style>
