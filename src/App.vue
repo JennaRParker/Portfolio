@@ -20,7 +20,7 @@
     margin: 8vh;
     font-size: 7vh;
     margin-bottom: 1vh;
-    text-shadow: #28d536 1px 0 30px;
+    text-shadow: #28d536 10px 0 50px;
     color: white;
     font-family: 'Righteous', cursive;
 }

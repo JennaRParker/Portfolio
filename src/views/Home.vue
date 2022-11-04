@@ -49,7 +49,7 @@ body {
     margin: auto;
     font-family: 'Monoton', cursive;
     font-weight: 10;
-    text-shadow: white 1px 0 30px;
+    text-shadow: white 1px 0 40px;
     color: #28d536;
 
 }
