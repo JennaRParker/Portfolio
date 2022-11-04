@@ -102,15 +102,6 @@ button {
     text-align: center;
     margin-top: 10vh;
 }
-
-.title {
-    text-align: center;
-    margin-top: 15vh;
-    font-size: 12vh;
-    margin-bottom: 1vh;
-    text-shadow: #28d536 1px 0 30px;
-}
-
 .about {
     text-align: left;
     font-size: 3vh;

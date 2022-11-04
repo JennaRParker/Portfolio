@@ -1,9 +1,9 @@
 <template>
   <div id="nav">
-    <router-link id="click" to="/">Home</router-link>
-    <router-link id="click" to="/about">About</router-link>
-    <router-link id="click" to="/projects">Projects and Skills</router-link>
-    <router-link id="click" to="contact">Contact</router-link>
+    <router-link class="title" to="/">Home</router-link>
+    <router-link class="title" to="/about">About</router-link>
+    <router-link class="title" to="/projects">Projects and Skills</router-link>
+    <router-link class="title" to="contact">Contact</router-link>
   </div>
   <router-view/>
 </template>
@@ -15,12 +15,14 @@
   margin-top: 4vh;
 }
 
-#click {
-  margin: 30px;
-  color: black;
-  font-family: 'Righteous', cursive;
-  background-color: white;
-  border-radius: 10px;
+.title {
+    text-align: center;
+    margin: 8vh;
+    font-size: 7vh;
+    margin-bottom: 1vh;
+    text-shadow: #28d536 1px 0 30px;
+    color: white;
+    font-family: 'Righteous', cursive;
 }
 
 </style>

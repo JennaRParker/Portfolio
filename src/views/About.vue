@@ -1,5 +1,4 @@
 <template>
-     <h1 class="title">About</h1>
         <div class="about">
             <p class="chunk">
                 Hi! My name is Jenna, and I graduated from the <a

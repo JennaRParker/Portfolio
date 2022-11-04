@@ -1,5 +1,4 @@
 <template>
-<h1 class="title">Projects and Skills</h1>
         <div class="card-container">
             <a class="space" href="https://braindump-avatar.herokuapp.com/">
                 <div class="card">
