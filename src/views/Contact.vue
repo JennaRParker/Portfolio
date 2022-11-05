@@ -4,7 +4,7 @@
       <input placeholder="Your Name" type="text" name="user_name"> 
       <input placeholder="Your Email" type="email" name="user_email"> <br />
       <textarea placeholder="Your Message" name="message"></textarea> <br />
-      <input id="send" type="submit" value="Send">
+      <input id="send" type="submit" value="Send" >
     </form>
   </template>
 
@@ -60,8 +60,8 @@ textarea {
     methods: {
       sendEmail() {
         emailjs.sendForm('service_bvk1rmn', 'template_xly6jps', this.$refs.form, 'TbRiNitiwUZuV34HP')
-          .then((result) => {
-              console.log('SUCCESS!', result.text);
+          .then(() => {
+              window.location.reload()
           }, (error) => {
               console.log('FAILED...', error.text);
           });
