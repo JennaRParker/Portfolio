@@ -8,7 +8,7 @@
             
             <p class="chunk">
                 <span class="hi">Hi! </span> My name is Jenna, and I graduated from the <a
-                    href="https://generalassemb.ly/education/software-engineering-immersive"><span
+                    href="https://generalassemb.ly/education/software-engineering-immersive" target="_blank"><span
                         class="linked">General Assembly Software
                         Engineering Immersive bootcamp</span></a> on
                 10-31-22, in order to fulfill my desired pursuit to further understand the tech space and contribute to
@@ -27,8 +27,8 @@
 
 <style>
 .hi {
-    color: #0677a1;
     font-size: 50px;
+    color: white;
 }
 
 .profile {
