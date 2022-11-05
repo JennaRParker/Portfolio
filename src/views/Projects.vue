@@ -1,39 +1,4 @@
 <template>
-    <div class="skills">
-        <ul>Languages
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Typescript</li>
-        </ul>
-        <ul>Frameworks & Libraries
-            <li>Vue</li>
-            <li>React</li>
-            <li>Django</li>
-            <li>Express</li>
-            <li>jQuery</li>
-            <li>Bootstrap</li>
-            <li>Materialize</li>
-            <li>Sass</li>
-        </ul>
-        <ul>Databases
-            <li>PostgreSQL</li>
-            <li>MongoDB</li>
-        </ul>
-        <ul>Tools
-            <li>Git</li>
-            <li>RESTful Routing</li>
-            <li>Postman</li>
-            <li>VS Code</li>
-            <li>Google Firebase</li>
-            <li>Windows OS</li>
-            <li>Mac OS</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe Bridge</li>
-            <li>Adobe Premiere Pro</li>
-        </ul>
-    </div>
     <div class="card-container">
         <!-- <a class="space" href="https://braindump-avatar.herokuapp.com/"> -->
         <div class="card">
@@ -94,11 +59,73 @@
         </div>
         <!-- </a> -->
     </div>
+
+    <h1 class="tools">Toolbox</h1>
+    <div class="skills">
+        <ul>Languages
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Typescript</li>
+        </ul>
+        <ul>Frameworks & Libraries
+            <li>Vue</li>
+            <li>React</li>
+            <li>Django</li>
+            <li>Express</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>Materialize</li>
+            <li>Sass</li>
+        </ul>
+        <ul>Databases
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+        </ul>
+        <ul>Tools
+            <li>Git</li>
+            <li>RESTful Routing</li>
+            <li>Postman</li>
+            <li>VS Code</li>
+            <li>Google Firebase</li>
+            <li>Windows OS</li>
+            <li>Mac OS</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Bridge</li>
+            <li>Adobe Premiere Pro</li>
+        </ul>
+    </div>
 </template>
 
 <style>
 .skills {
-    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    box-shadow: white 1px 0 40px;
+}
+
+.tools {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 10vh;
+    text-shadow: white 1px 0 40px;
+    color: #28d536;
+}
+
+ul {
+    font-size: 30px;;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #0677a1;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    color: #28d536;
 }
 
 .card-container {
