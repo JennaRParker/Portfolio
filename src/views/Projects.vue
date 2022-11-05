@@ -1,10 +1,10 @@
 <template>
     <div class="card-container">
         <div class="card">
-            <h1 class="project-title">Brain Dump</h1>
+            <h1 class="project-title">BRAIN DUMP</h1>
             <div class="select">
-                <a href="https://braindump-avatar.herokuapp.com/" target="_blank" id="deploy">Live App</a>
-                <a href="https://github.com/JennaRParker/brainDump" target="_blank" id="Github">Github</a>
+                <a class="site" href="https://braindump-avatar.herokuapp.com/" target="_blank" id="deploy">App</a>
+                <a class="site" href="https://github.com/JennaRParker/brainDump" target="_blank" id="Github">Github</a>
             </div>
             <h2 class="descript">A simple, mobile platform for users to anonymously share their thoughts and comment
                 on posts.</h2>
@@ -17,10 +17,10 @@
                 src="https://pbs.twimg.com/media/Fg0VgxxWABcUvm7?format=png&name=900x900">
         </div>
         <div class="card">
-            <h1 class="project-title">DTox</h1>
+            <h1 class="project-title">DTOX</h1>
             <div class="select">
-                <a href="https://dtoxnow.netlify.app/" target="_blank" id="deploy">Live App</a>
-                <a href="https://github.com/JennaRParker/DTox-Frontend" target="_blank" id="Github">Github</a>
+                <a class="site" href="https://dtoxnow.netlify.app/" target="_blank" id="deploy">App</a>
+                <a class="site" href="https://github.com/JennaRParker/DTox-Frontend" target="_blank" id="Github">Github</a>
             </div>
             <div class="outline">
                 <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
@@ -35,14 +35,13 @@
             </div>
             <img class="proj-photo" src="https://pbs.twimg.com/media/Fg0VgysXoAAl2Jb?format=jpg&name=large">
         </div>
-        <!-- </a> -->
     </div>
     <div class="card-container">
         <div class="card">
-            <h1 class="project-title">Chain Reaction</h1>
+            <h1 class="project-title">CHAIN REACTION</h1>
             <div class="select">
-                <a href="https://chain-react.herokuapp.com/" target="_blank" id="deploy">Live App</a>
-                <a href="https://github.com/JennaRParker/ChainReaction" target="_blank" id="Github">Github</a>
+                <a class="site" href="https://chain-react.herokuapp.com/" target="_blank" id="deploy">App</a>
+                <a class="site" href="https://github.com/JennaRParker/ChainReaction" target="_blank" id="Github">Github</a>
             </div>
             <h2 class="descript">An interactive application allowing chain-restaurant-lovers and haters to share in
                 their wisdom of fast-food experiences through the years.</h2>
@@ -56,8 +55,8 @@
         <div class="card">
             <h1 class="project-title">MOOD SING</h1>
             <div class="select">
-                <a href="https://jennarparker.github.io/Mood-Sing/" target="_blank" id="deploy">Live App</a>
-                <a href="https://github.com/JennaRParker/Mood-Sing" target="_blank" id="Github">Github</a>
+                <a class="site" href="https://jennarparker.github.io/Mood-Sing/" target="_blank" id="deploy">App</a>
+                <a class="site" href="https://github.com/JennaRParker/Mood-Sing" target="_blank" id="Github">Github</a>
             </div>
             <h2 class="descript">A "mood ring" that retrieves a song rather than a color. Tell this application how
                 you feel or want to feel, and prepare to immerse yourself in the music of that mood.</h2>
@@ -139,6 +138,10 @@ li {
     color: #28d536;
 }
 
+li:hover {
+    font-size: 30px;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -156,7 +159,7 @@ li {
 }
 
 .project-title {
-    font-size: 6vh;
+    font-size: 8vh;
     text-shadow: white 1px 0 40px;
 }
 
@@ -199,4 +202,21 @@ img:hover {
 .proj-photo:hover {
     box-shadow: none;
 }
+
+.site {
+    color: black;
+    margin: 10px;
+    background-color: #28d536;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.site:hover {
+    font-size: 50px;
+}
+
+.select {
+    margin-bottom: 2vh
+}
+
 </style>
