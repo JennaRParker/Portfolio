@@ -1,12 +1,9 @@
 <template>
      <h1>Send me a message, I'd love to hear from you!</h1>
     <form ref="form" @submit.prevent="sendEmail">
-      <label>Name</label> 
-      <input type="text" name="user_name"> <br />
-      <label>Email</label>
-      <input type="email" name="user_email"> <br />
-      <label>Message</label>
-      <textarea name="message"></textarea> <br />
+      <input placeholder="Your Name" type="text" name="user_name"> <br />
+      <input placeholder="Your Email" type="email" name="user_email"> <br />
+      <textarea placeholder="Your Message" name="message"></textarea> <br />
       <input type="submit" value="Send">
     </form>
   </template>
