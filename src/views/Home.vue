@@ -9,7 +9,7 @@
             <ul>
                 <li class="sub">Based out of <span class="green">Atlanta, GA</span></li>
                 <li class="sub">Constantly <span class="green">learning</span></li>
-                <li class="sub">Let's get <span class="green">in touch!</span></li>
+                <li class="sub">Let's get <a href="/contact"><span class="green">in touch</span></a></li>
             </ul>
         </div>
     </div>
@@ -98,10 +98,18 @@ button {
     box-shadow: white 1px 0 30px;
 }
 
+button:hover {
+    height: 20vh;
+    width: 20vh;
+    font-size: larger;
+}
+
 .buttons {
     text-align: center;
     margin-top: 10vh;
+    margin-bottom: 10vh;
 }
+
 .about {
     text-align: left;
     font-size: 3vh;
@@ -165,3 +173,8 @@ img {
     margin: 10px;
 }
 </style>
+
+<script>
+
+
+</script>
