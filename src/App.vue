@@ -20,9 +20,14 @@
     margin: 8vh;
     font-size: 7vh;
     margin-bottom: 1vh;
-    text-shadow: #28d536 10px 0 50px;
+    text-shadow: #79d528 10px 0 50px;
     color: white;
     font-family: 'Righteous', cursive;
+}
+
+.title:hover {
+  color: #79d528;
+  text-shadow: white 10px 0 50px;
 }
 
 </style>
