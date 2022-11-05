@@ -176,9 +176,16 @@ img {
     margin: 10px;
 }
 
+img:hover {
+    box-shadow: #28d536 1px 0 20px;
+}
+
 .proj-photo {
     width: 400px;
     height: 200px;
+}
 
+.proj-photo:hover {
+    box-shadow: none;
 }
 </style>
