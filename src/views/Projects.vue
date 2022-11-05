@@ -1,8 +1,43 @@
 <template>
+    <div class="skills">
+        <ul>Languages
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Typescript</li>
+        </ul>
+        <ul>Frameworks & Libraries
+            <li>Vue</li>
+            <li>React</li>
+            <li>Django</li>
+            <li>Express</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>Materialize</li>
+            <li>Sass</li>
+        </ul>
+        <ul>Databases
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+        </ul>
+        <ul>Tools
+            <li>Git</li>
+            <li>RESTful Routing</li>
+            <li>Postman</li>
+            <li>VS Code</li>
+            <li>Google Firebase</li>
+            <li>Windows OS</li>
+            <li>Mac OS</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Bridge</li>
+            <li>Adobe Premiere Pro</li>
+        </ul>
+    </div>
     <div class="card-container">
         <!-- <a class="space" href="https://braindump-avatar.herokuapp.com/"> -->
-            <div class="card">
-                <h1 class="project-title">Brain Dump</h1>
+        <div class="card">
+            <h1 class="project-title">Brain Dump</h1>
             <h2 class="descript">A simple, mobile platform for users to anonymously share their thoughts and comment
                 on posts.</h2>
             <div class="tech">
@@ -10,31 +45,32 @@
                 <img src="https://img.shields.io/badge/-Django-yellowgreen" />
                 <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
             </div>
-            <img class="proj-photo" id="brainDump" src="https://pbs.twimg.com/media/Fg0VgxxWABcUvm7?format=png&name=900x900">
+            <img class="proj-photo" id="brainDump"
+                src="https://pbs.twimg.com/media/Fg0VgxxWABcUvm7?format=png&name=900x900">
         </div>
         <!-- </a> -->
         <!-- <a class="space" href="https://dtoxnow.netlify.app/"> -->
-            <div class="card">
-                <h1 class="project-title">DTox</h1>
+        <div class="card">
+            <h1 class="project-title">DTox</h1>
             <div class="outline">
-            <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
-                every-day products.</h2>
-            <div class="tech">
-                <img src="https://img.shields.io/badge/-React.js-blue" />
-                <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
-                <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
-                <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
-                <img src="https://img.shields.io/badge/-Firebase-red" />
+                <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
+                    every-day products.</h2>
+                <div class="tech">
+                    <img src="https://img.shields.io/badge/-React.js-blue" />
+                    <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
+                    <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
+                    <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
+                    <img src="https://img.shields.io/badge/-Firebase-red" />
+                </div>
             </div>
-        </div>
             <img class="proj-photo" src="https://pbs.twimg.com/media/Fg0VgysXoAAl2Jb?format=jpg&name=large">
         </div>
         <!-- </a> -->
     </div>
     <div class="card-container">
         <!-- <a href="https://chain-react.herokuapp.com/" id="chain-reaction"> -->
-            <div class="card">
-                <h1 class="project-title">Chain Reaction</h1>
+        <div class="card">
+            <h1 class="project-title">Chain Reaction</h1>
             <h2 class="descript">An interactive application allowing chain-restaurant-lovers and haters to share in
                 their wisdom of fast-food experiences through the years.</h2>
             <div class="tech">
@@ -50,7 +86,7 @@
             <h1 class="project-title">MOOD SING</h1>
             <h2 class="descript">A "mood ring" that retrieves a song rather than a color. Tell this application how
                 you feel or want to feel, and prepare to immerse yourself in the music of that mood.</h2>
-                <div class="tech">
+            <div class="tech">
                 <img src="https://img.shields.io/badge/-AJAX-blue" />
                 <img src="https://img.shields.io/badge/-jQuery-red" />
             </div>
@@ -61,6 +97,10 @@
 </template>
 
 <style>
+.skills {
+    color: white;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -79,6 +119,7 @@
 
 .project-title {
     font-size: 6vh;
+    text-shadow: white 1px 0 40px;
 }
 
 #brainDump {
@@ -90,7 +131,7 @@
     text-align: center;
     width: 50vh;
     margin: auto;
-    color: white;
+    color: #0677a1;
     font-family: 'Righteous', cursive;
     font-weight: 1px;
 }
@@ -111,6 +152,6 @@ img {
 .proj-photo {
     width: 400px;
     height: 200px;
-    
+
 }
 </style>
