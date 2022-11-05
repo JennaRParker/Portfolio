@@ -1,9 +1,8 @@
 <template>
     <div class="card-container">
-        <a class="space" href="https://braindump-avatar.herokuapp.com/">
+        <!-- <a class="space" href="https://braindump-avatar.herokuapp.com/"> -->
             <div class="card">
                 <h1 class="project-title">Brain Dump</h1>
-            </div>
             <h2 class="descript">A simple, mobile platform for users to anonymously share their thoughts and comment
                 on posts.</h2>
             <div class="tech">
@@ -11,11 +10,13 @@
                 <img src="https://img.shields.io/badge/-Django-yellowgreen" />
                 <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
             </div>
-        </a>
-        <a class="space" href="https://dtoxnow.netlify.app/">
+            <img class="proj-photo" id="brainDump" src="https://pbs.twimg.com/media/Fg0VgxxWABcUvm7?format=png&name=900x900">
+        </div>
+        <!-- </a> -->
+        <!-- <a class="space" href="https://dtoxnow.netlify.app/"> -->
             <div class="card">
                 <h1 class="project-title">DTox</h1>
-            </div>
+            <div class="outline">
             <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
                 every-day products.</h2>
             <div class="tech">
@@ -25,13 +26,15 @@
                 <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
                 <img src="https://img.shields.io/badge/-Firebase-red" />
             </div>
-        </a>
+        </div>
+            <img class="proj-photo" src="https://pbs.twimg.com/media/Fg0VgysXoAAl2Jb?format=jpg&name=large">
+        </div>
+        <!-- </a> -->
     </div>
     <div class="card-container">
-        <a href="https://chain-react.herokuapp.com/" id="chain-reaction">
+        <!-- <a href="https://chain-react.herokuapp.com/" id="chain-reaction"> -->
             <div class="card">
                 <h1 class="project-title">Chain Reaction</h1>
-            </div>
             <h2 class="descript">An interactive application allowing chain-restaurant-lovers and haters to share in
                 their wisdom of fast-food experiences through the years.</h2>
             <div class="tech">
@@ -39,7 +42,9 @@
                 <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
                 <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
             </div>
-        </a>
+            <img class="proj-photo" src="https://pbs.twimg.com/media/Fg0VgxvXEAs83KC?format=jpg&name=large">
+        </div>
+        <!-- </a> -->
         <!-- <a href="https://jennarparker.github.io/Mood-Sing/" id="mood-sing"> -->
         <div class="card">
             <h1 class="project-title">MOOD SING</h1>
@@ -70,12 +75,15 @@
     text-align: center;
     font-family: 'Righteous', cursive;
     justify-content: center;
-    box-shadow: #0677a1 10px 0 50px;
-
 }
 
 .project-title {
     font-size: 6vh;
+}
+
+#brainDump {
+    height: 400px;
+    width: 300px;
 }
 
 .descript {
