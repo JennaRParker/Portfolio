@@ -127,51 +127,6 @@ button:hover {
 span {
     color: #28d536
 }
-
-.card-container {
-    display: flex;
-    justify-content: center;
-}
-
-.card {
-    width: 50vh;
-    height: 15vh;
-    background-color: #0677a1;
-    margin: 15vh 15vh 5vh 15vh;
-    border-radius: 10vh;
-    color: white;
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    display: flex;
-    justify-content: center;
-    box-shadow: #28d536 1px 0 30px;
-}
-
-.project-title {
-    font-size: 6vh;
-}
-
-.descript {
-    text-align: center;
-    width: 50vh;
-    margin: auto;
-    color: white;
-    font-family: 'Righteous', cursive;
-    font-weight: 1px;
-}
-
-.tech {
-    margin-top: 0;
-    width: 50vh;
-    text-align: center;
-    margin: auto;
-}
-
-img {
-    width: 90px;
-    height: 50px;
-    margin: 10px;
-}
 </style>
 
 <script>

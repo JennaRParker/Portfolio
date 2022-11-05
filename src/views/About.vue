@@ -1,7 +1,7 @@
 
 <template>
 <div class="all">
-<img src="https://pbs.twimg.com/profile_images/1588947438320193536/QT_O7sk__400x400.jpg"/>
+<img class="profile" src="https://pbs.twimg.com/profile_images/1588947438320193536/QT_O7sk__400x400.jpg"/>
 
 
         <div class="about">
@@ -31,7 +31,7 @@
     font-size: 50px;
 }
 
-img {
+.profile {
     width: 600px;
     height: 600px;
     margin-left: 10vh;

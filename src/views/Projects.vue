@@ -1,55 +1,108 @@
 <template>
-        <div class="card-container">
-            <a class="space" href="https://braindump-avatar.herokuapp.com/">
-                <div class="card">
-                    <h1 class="project-title">Brain Dump</h1>
-                </div>
-                <h2 class="descript">A simple, mobile platform for users to anonymously share their thoughts and comment
-                    on posts.</h2>
+    <div class="card-container">
+        <a class="space" href="https://braindump-avatar.herokuapp.com/">
+            <div class="card">
+                <h1 class="project-title">Brain Dump</h1>
+            </div>
+            <h2 class="descript">A simple, mobile platform for users to anonymously share their thoughts and comment
+                on posts.</h2>
+            <div class="tech">
+                <img src=https://img.shields.io/badge/-Python-yellow />
+                <img src="https://img.shields.io/badge/-Django-yellowgreen" />
+                <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
+            </div>
+        </a>
+        <a class="space" href="https://dtoxnow.netlify.app/">
+            <div class="card">
+                <h1 class="project-title">DTox</h1>
+            </div>
+            <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
+                every-day products.</h2>
+            <div class="tech">
+                <img src="https://img.shields.io/badge/-React.js-blue" />
+                <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
+                <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
+                <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
+                <img src="https://img.shields.io/badge/-Firebase-red" />
+            </div>
+        </a>
+    </div>
+    <div class="card-container">
+        <a href="https://chain-react.herokuapp.com/" id="chain-reaction">
+            <div class="card">
+                <h1 class="project-title">Chain Reaction</h1>
+            </div>
+            <h2 class="descript">An interactive application allowing chain-restaurant-lovers and haters to share in
+                their wisdom of fast-food experiences through the years.</h2>
+            <div class="tech">
+                <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
+                <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
+                <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
+            </div>
+        </a>
+        <!-- <a href="https://jennarparker.github.io/Mood-Sing/" id="mood-sing"> -->
+        <div class="card">
+            <h1 class="project-title">MOOD SING</h1>
+            <h2 class="descript">A "mood ring" that retrieves a song rather than a color. Tell this application how
+                you feel or want to feel, and prepare to immerse yourself in the music of that mood.</h2>
                 <div class="tech">
-                    <img src=https://img.shields.io/badge/-Python-yellow />
-                    <img src="https://img.shields.io/badge/-Django-yellowgreen" />
-                    <img src="https://img.shields.io/badge/-PostgreSQL-blue" />
-                </div>
-            </a>
-            <a class="space" href="https://dtoxnow.netlify.app/">
-                <div class="card">
-                    <h1 class="project-title">DTox</h1>
-                </div>
-                <h2 class="descript">Built with two other engineers to help inform users on potential toxins found in
-                    every-day products.</h2>
-                <div class="tech">
-                    <img src="https://img.shields.io/badge/-React.js-blue" />
-                    <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
-                    <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
-                    <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
-                    <img src="https://img.shields.io/badge/-Firebase-red" />
-                </div>
-            </a>
+                <img src="https://img.shields.io/badge/-AJAX-blue" />
+                <img src="https://img.shields.io/badge/-jQuery-red" />
+            </div>
+            <img class="proj-photo" src="https://pbs.twimg.com/media/Fg0VgxyXgAAUYoC?format=jpg&name=large">
         </div>
-        <div class="card-container">
-            <a href="https://chain-react.herokuapp.com/">
-                <div class="card">
-                    <h1 class="project-title">Chain Reaction</h1>
-                </div>
-                <h2 class="descript">An interactive application allowing chain-restaurant-lovers and haters to share in
-                    their wisdom of fast-food experiences through the years.</h2>
-                <div class="tech">
-                    <img src="https://img.shields.io/badge/-Node.js-brightgreen" />
-                    <img src="https://img.shields.io/badge/-Express.js-lightgrey" />
-                    <img src="https://img.shields.io/badge/-Mongo.DB-orange" />
-                </div>
-            </a>
-            <a href="https://jennarparker.github.io/Mood-Sing/">
-                <div class="card">
-                    <h1 class="project-title">Mood Sing</h1>
-                </div>
-                <h2 class="descript">A "mood ring" that retrieves a song rather than a color. Tell this application how
-                    you feel or want to feel, and prepare to immerse yourself in the music of that mood.</h2>
-                <div class="tech">
-                    <img src="https://img.shields.io/badge/-AJAX-blue" />
-                    <img src="https://img.shields.io/badge/-jQuery-red" />
-                </div>
-            </a>
-        </div>
+        <!-- </a> -->
+    </div>
 </template>
+
+<style>
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 50vh;
+    height: 80vh;
+    margin: 15vh 15vh 5vh 15vh;
+    border-radius: 10vh;
+    color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    justify-content: center;
+    box-shadow: #0677a1 10px 0 50px;
+
+}
+
+.project-title {
+    font-size: 6vh;
+}
+
+.descript {
+    text-align: center;
+    width: 50vh;
+    margin: auto;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: 1px;
+}
+
+.tech {
+    margin-top: 0;
+    width: 50vh;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+}
+
+.proj-photo {
+    width: 400px;
+    height: 200px;
+    
+}
+</style>
