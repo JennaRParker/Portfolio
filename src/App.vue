@@ -41,6 +41,31 @@ and (max-device-width: 812px) {
     }
 }
 
+@media only screen 
+and (min-device-width: 501px)
+and (max-device-width: 1000px) {
+  .title {
+    margin: 2vh;
+    font-size: 2.5vh
+  }
+}
+
+@media only screen 
+and (min-device-width: 1001px) {
+  .title {
+    font-size: 5vh
+  }
+}
+
+@media only screen 
+and (min-device-width: 200px)
+and (max-device-width: 350px) {
+  .title {
+    font-size: 1.5vh;
+    margin: 1vh
+  }
+}
+
 </style>
 
 

@@ -53,7 +53,7 @@ textarea {
 }
 
 @media only screen 
-and (max-device-width: 812px) {
+and (max-device-width: 500px) {
     #contact {
         margin-top: 3vh;
         font-size: 4vh
@@ -69,6 +69,26 @@ and (max-device-width: 812px) {
         width: 20vh;
     }
 }
+
+@media only screen 
+and (min-device-width: 501px)
+and (max-device-width: 1000px) {
+    textarea{
+        width: 50vh;
+        font-size: 30px;
+    } 
+    #send {
+        width: 50vh;
+    }
+    input {
+        font-size: 30px;
+    }
+    #contact {
+        font-size: 3vh;
+        margin-bottom: 5vh
+    }
+}
+
 </style>
   
   <script>
