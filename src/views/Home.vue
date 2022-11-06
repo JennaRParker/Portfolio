@@ -146,4 +146,25 @@ and (max-device-width: 812px) {
     }
 }
 
+@media only screen 
+and (min-device-width: 1001px) {
+  .name {
+    font-size: 15vh
+  }
+  .sub {
+    font-size: 4vh
+  }
+}
+
+@media only screen 
+and (min-device-width: 800px)
+and (max-device-width: 930px) {
+    .name {
+        font-size: 6vh
+    }
+    .sub {
+        font-size: 4vh;
+    }
+}
+
 </style>
