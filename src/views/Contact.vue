@@ -51,6 +51,24 @@ textarea {
     color: white;
     font-size: 40px;
 }
+
+@media only screen 
+and (max-device-width: 812px) {
+    #contact {
+        margin-top: 3vh;
+        font-size: 4vh
+    }
+    input {
+        width: 31vh
+    }
+    textarea {
+        width: 30vh;
+        height: 40vh;
+    }
+    #send {
+        width: 20vh;
+    }
+}
 </style>
   
   <script>
