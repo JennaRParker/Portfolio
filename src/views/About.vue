@@ -41,4 +41,29 @@
 .all {
     display: flex;
 }
+
+.about {
+    text-align: left;
+    font-size: 3vh;
+    color: #0677a1;
+    width: 100vh;
+    margin: 12vh auto;
+    font-family: 'Righteous', cursive;
+}
+
+@media only screen 
+and (max-device-width: 812px) {
+    .profile {
+        margin-top: 5vh;
+        width: 30vh;
+        height: 30vh;
+    }
+    .all {
+        display:list-item
+    }
+    .about {
+        width: 30vh;
+        font-size: 2vh;
+    }
+}
 </style>

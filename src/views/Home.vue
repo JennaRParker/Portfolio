@@ -110,15 +110,6 @@ button:hover {
     margin-bottom: 10vh;
 }
 
-.about {
-    text-align: left;
-    font-size: 3vh;
-    color: #0677a1;
-    width: 100vh;
-    margin: 12vh auto;
-    font-family: 'Righteous', cursive;
-}
-
 .linked {
     color: #28d536;
     font-style: italic;
