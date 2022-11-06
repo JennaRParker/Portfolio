@@ -30,6 +30,17 @@
   text-shadow: white 10px 0 50px;
 }
 
+@media only screen 
+and (max-device-width: 812px) {
+    .title {
+      margin: 1vh;
+      font-size: 1.9vh;
+    }
+    #nav {
+      margin-top: 0;
+    }
+}
+
 </style>
 
 

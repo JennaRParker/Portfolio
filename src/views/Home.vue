@@ -127,9 +127,13 @@ button:hover {
 span {
     color: #28d536
 }
+
+@media only screen 
+and (max-device-width: 812px) {
+    .name {
+        font-size: 6vh;
+        text-align: center;
+    }
+}
+
 </style>
-
-<script>
-
-
-</script>
