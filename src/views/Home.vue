@@ -131,8 +131,27 @@ span {
 @media only screen 
 and (max-device-width: 812px) {
     .name {
-        font-size: 6vh;
+        font-size: 5vh;
         text-align: center;
+    }
+    .header {
+        margin-top: 3vh;
+    }
+    .sub {
+        font-size: 2.5vh;
+        margin: 1vh
+    }
+    .subtext {
+        margin-top: 2vh;
+        text-align: left;
+    }
+    button {
+        width: 15vh;
+        height: 15vh;
+        margin: 5vh;
+    }
+    .buttons {
+        margin-top: 1vh
     }
 }
 
