@@ -219,4 +219,42 @@ img:hover {
     margin-bottom: 2vh
 }
 
+@media only screen 
+and (min-device-width: 1000px)
+and (max-device-width: 1279px) {
+    .tools {
+        margin-top: 40vh;
+    }
+    .card-container {
+        margin-bottom: 60vh;
+    }
+}
+
+@media only screen 
+and (max-device-width: 812px) {
+    .card-container{
+        display: list-item
+    }
+
+    .card {
+        margin-bottom: 40vh;
+    }
+
+    .skills {
+        display:list-item
+    }
+}
+
+@media only screen 
+and (min-device-width: 501px)
+and (max-device-width: 1000px) {
+  .card-container {
+    display: list-item;
+  }
+  .card {
+    margin-bottom: 2vh;
+    margin-top: 2vh
+  }
+}
+
 </style>
