@@ -66,4 +66,23 @@ and (max-device-width: 812px) {
         font-size: 2vh;
     }
 }
+
+@media only screen 
+and (min-device-width: 1001px) {
+    .about {
+        margin-top: 6vh
+    }
+}
+
+@media only screen 
+and (min-device-width: 501px)
+and (max-device-width: 1000px) {
+  .all {
+    display: list-item
+  }
+    .about {
+    font-size: 2.5vh;
+    width: 50vh
+  }
+}
 </style>
