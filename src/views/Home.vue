@@ -21,7 +21,7 @@
                 <h2 class="link">LinkedIn</h2>
             </a></button>
         <button><a
-                href="https://docs.google.com/document/d/1sBAkTLxoPMZf027ig45PKgLxRMTiTBN_6-kVZ-ybdtM/edit?usp=sharing" target="_blank">
+                href="https://drive.google.com/file/d/1nlA78hNsYtEfv94oRuKFJvkxahBXHSAQ/view?usp=sharing" target="_blank">
                 <h2 class="link">Resume</h2>
             </a></button>
     </div>
